@@ -7,13 +7,18 @@
     <meta name="description" content="انقل عفشك على الرايق مع فريق نقل عفش يخطط، يغلف، ينقل، ويركب بدون مفاجآت.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=IBM+Plex+Sans+Arabic:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" as="image" href="assets/images/hero.webp" fetchpriority="high">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=IBM+Plex+Sans+Arabic:wght@300;400;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="styles.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=IBM+Plex+Sans+Arabic:wght@300;400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+    </noscript>
   </head>
   <body>
     <header class="header">
       <div class="container header__inner">
-        <img class="logo" src="assets/icons/logo.png" alt="شعار الشركة">
+        <img class="logo" src="assets/icons/logo.png" width="271" height="360" alt="شعار الشركة" decoding="async">
         <div class="buttons">
           <a class="btn btn--fill" href="#quote">احصل على عرض سعر خلال 15 دقيقة</a>
         </div>
@@ -23,7 +28,7 @@
     <main>
       <section class="hero">
         <div class="container hero__inner">
-          <img class="hero__image" src="assets/images/hero.webp" alt="فريق نقل عفش داخل المنزل">
+          <img class="hero__image" src="assets/images/hero.webp" width="1600" height="1195" alt="فريق نقل عفش داخل المنزل" fetchpriority="high" decoding="async">
           <div class="hero__text">
             <div class="reviews-line">
               <span class="single-star">4.8</span>
@@ -47,27 +52,27 @@
           </div>
           <div class="masonry">
             <div class="column">
-              <article class="review review--large"><img src="assets/images/review%234.webp" alt="أثاث مغلف داخل منزل"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>ما يخلونكم تشيلون هم شي</h3><p>ما شاء الله شغلكم مرة نظيف من لف وتركيب وفك. ما يخلونكم تشيلون هم شي.</p><div class="reviewer"><img src="assets/icons/google.svg" alt="Google"><span>ريما حسين</span></div></div></article>
-              <article class="review review--photo"><img src="assets/images/review%235.webp" alt="فريق نقل الأثاث أثناء العمل"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>سريع ومنظم</h3><p>جاؤوا في الموعد، قسموا الشغل بينهم، وكل شيء كان واضح من أول اتصال إلى آخر صندوق.</p><div class="reviewer"><img src="assets/icons/google.svg" alt="Google"><span>نواف العنزي</span></div></div></article>
-              <article class="review"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>التركيب كان ممتاز</h3><p>فكوا الأثاث ورجعوا ركبوه في البيت الجديد، والتعامل كان مريح من البداية للنهاية.</p><div class="reviewer"><img src="assets/icons/google.svg" alt="Google"><span>سارة محمد</span></div></div></article>
+              <article class="review review--large"><img src="assets/images/review%234.webp" width="692" height="843" alt="أثاث مغلف داخل منزل" loading="lazy" decoding="async"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>ما يخلونكم تشيلون هم شي</h3><p>ما شاء الله شغلكم مرة نظيف من لف وتركيب وفك. ما يخلونكم تشيلون هم شي.</p><div class="reviewer"><img src="assets/icons/google.svg" width="24" height="24" alt="Google" loading="lazy" decoding="async"><span>ريما حسين</span></div></div></article>
+              <article class="review review--photo"><img src="assets/images/review%235.webp" width="864" height="852" alt="فريق نقل الأثاث أثناء العمل" loading="lazy" decoding="async"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>سريع ومنظم</h3><p>جاؤوا في الموعد، قسموا الشغل بينهم، وكل شيء كان واضح من أول اتصال إلى آخر صندوق.</p><div class="reviewer"><img src="assets/icons/google.svg" width="24" height="24" alt="Google" loading="lazy" decoding="async"><span>نواف العنزي</span></div></div></article>
+              <article class="review"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>التركيب كان ممتاز</h3><p>فكوا الأثاث ورجعوا ركبوه في البيت الجديد، والتعامل كان مريح من البداية للنهاية.</p><div class="reviewer"><img src="assets/icons/google.svg" width="24" height="24" alt="Google" loading="lazy" decoding="async"><span>سارة محمد</span></div></div></article>
             </div>
             <div class="column">
-              <article class="review review--large"><img src="assets/images/review%232.webp" alt="نقل صناديق وأثاث"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>بصراحة قمة الاحترافية</h3><p>تعاملت معاهم قبل يومين نقلت من الغدير للملقا بصراحة قمة الاحترافية ما كسروا شي لفوا كل الأغراض يعني خلصنا في ٤ ساعات أو ٥ انصح فيهم وبشدة</p><div class="reviewer"><img src="assets/icons/google.svg" alt="Google"><span>ابو عزيز</span></div></div></article>
-              <article class="review review--large"><img src="assets/images/review%233.webp" alt="أثاث جاهز للنقل"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>كانوا العمال بمنتهى الاخلاق</h3><p>حبيت اشكر الشركة على تعاملهم الراقي والمميز وكانوا العمال بمنتهى الاخلاق، بصراحة بذكرهم عند أي أحد يسأل.</p><div class="reviewer"><img src="assets/icons/google.svg" alt="Google"><span>حمدي عبيد</span></div></div></article>
+              <article class="review review--large"><img src="assets/images/review%232.webp" width="437" height="583" alt="نقل صناديق وأثاث" loading="lazy" decoding="async"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>بصراحة قمة الاحترافية</h3><p>تعاملت معاهم قبل يومين نقلت من الغدير للملقا بصراحة قمة الاحترافية ما كسروا شي لفوا كل الأغراض يعني خلصنا في ٤ ساعات أو ٥ انصح فيهم وبشدة</p><div class="reviewer"><img src="assets/icons/google.svg" width="24" height="24" alt="Google" loading="lazy" decoding="async"><span>ابو عزيز</span></div></div></article>
+              <article class="review review--large"><img src="assets/images/review%233.webp" width="534" height="858" alt="أثاث جاهز للنقل" loading="lazy" decoding="async"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>كانوا العمال بمنتهى الاخلاق</h3><p>حبيت اشكر الشركة على تعاملهم الراقي والمميز وكانوا العمال بمنتهى الاخلاق، بصراحة بذكرهم عند أي أحد يسأل.</p><div class="reviewer"><img src="assets/icons/google.svg" width="24" height="24" alt="Google" loading="lazy" decoding="async"><span>حمدي عبيد</span></div></div></article>
             </div>
             <div class="column">
               <article class="review review--photo">
-                <img src="assets/images/review%231.webp" alt="عامل نقل يجهز الأثاث">
+                <img src="assets/images/review%231.webp" width="762" height="849" alt="عامل نقل يجهز الأثاث" loading="lazy" decoding="async">
                 <div class="review__body">
                   <span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span>
                   <h3>متعاونين ويتقبلون التوجيهات</h3>
                   <p>تجاوب سريع خلال ساعتين من الاتصال وصلوا الموقع .. العدد مناسب ٦ اشخاص متعاونين ويتقبلون التوجيهات .. سرعة في الاداء وتنفيذ الفك والتركيب خلال ساعتين ونصف تم كل الشغل ماشاء الله عليهم وسعرهم معقول ومناسب</p>
-                  <div class="reviewer"><img src="assets/icons/google.svg" alt="Google"><span>عبدالفتاح الادريسي</span></div>
+                  <div class="reviewer"><img src="assets/icons/google.svg" width="24" height="24" alt="Google" loading="lazy" decoding="async"><span>عبدالفتاح الادريسي</span></div>
                 </div>
               </article>
-              <article class="review"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>بنفس اليوم جوني</h3><p>الله يعطيهم العافية تواصلت معهم وبأقل من نص ساعة بنفس اليوم جوني ونقلوا لي العفش بدون تأخير. شكرا جزيلا لهم</p><div class="reviewer"><img src="assets/icons/google.svg" alt="Google"><span>ماهر عسيري</span></div></div></article>
-              <article class="review"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>التعامل طيب والشغل ممتاز</h3><p>صراحة عن تجربة الاخوان ماقصروا وتغليف كامل لأغراض المطبخ وجميع الاشياء ماطلعت من الشقة الا بعد التغليف واشكر الاخ ابو ياسين بالتعامل الطيب والشغل الممتاز</p><div class="reviewer"><img src="assets/icons/google.svg" alt="Google"><span>احمد بشير</span></div></div></article>
-              <article class="review"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>التعامل طيب والشغل ممتاز</h3><p>وبكل أمانه شباب متفانين بالعمل ومتقنين ومنجزين شكراً لهم.. واي احد يحتاج شركة للنقل صدقاً ومن غير تردد شركتكم المحترمة.</p><div class="reviewer"><img src="assets/icons/google.svg" alt="Google"><span>يزيد سالم</span></div></div></article>
+              <article class="review"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>بنفس اليوم جوني</h3><p>الله يعطيهم العافية تواصلت معهم وبأقل من نص ساعة بنفس اليوم جوني ونقلوا لي العفش بدون تأخير. شكرا جزيلا لهم</p><div class="reviewer"><img src="assets/icons/google.svg" width="24" height="24" alt="Google" loading="lazy" decoding="async"><span>ماهر عسيري</span></div></div></article>
+              <article class="review"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>التعامل طيب والشغل ممتاز</h3><p>صراحة عن تجربة الاخوان ماقصروا وتغليف كامل لأغراض المطبخ وجميع الاشياء ماطلعت من الشقة الا بعد التغليف واشكر الاخ ابو ياسين بالتعامل الطيب والشغل الممتاز</p><div class="reviewer"><img src="assets/icons/google.svg" width="24" height="24" alt="Google" loading="lazy" decoding="async"><span>احمد بشير</span></div></div></article>
+              <article class="review"><div class="review__body"><span class="stars" aria-label="تقييم خمس نجوم">★★★★★</span><h3>التعامل طيب والشغل ممتاز</h3><p>وبكل أمانه شباب متفانين بالعمل ومتقنين ومنجزين شكراً لهم.. واي احد يحتاج شركة للنقل صدقاً ومن غير تردد شركتكم المحترمة.</p><div class="reviewer"><img src="assets/icons/google.svg" width="24" height="24" alt="Google" loading="lazy" decoding="async"><span>يزيد سالم</span></div></div></article>
             </div>
           </div>
         </div>
@@ -82,18 +87,18 @@
             <p class="why__spacer" aria-hidden="true">&nbsp;</p>
             <p>نفّذنا أكثر من ١٬٢٠٠ عملية نقل، وحصلنا على تقييم 4.8/5 من أكثر من ٢٥٠ عميل. مو لأننا الأرخص، بل لأننا نهتم بالتفاصيل اللي تخلي يوم النقل يمشي بدون توتر أو مفاجآت.<br><br></p>
             <p>من أول اتصال، نعطيك عرض سعر واضح، ونخطط معك لكل خطوة قبل الموعد. ويوم النقل، يوصل فريق مدرّب يعرف وش يسوي، ويشتغل بسرعة وتنظيم، حتى تقدر تبدأ يومك الجديد وأنت مرتاح.<br><br></p>
-            <p><strong>في النهاية، فرق السعر ينسى بسرعة... لكن تجربة النقل تبقى في بالك لسنوات.</strong></p>
+            <p><strong>في النهاية، راح تنسى فرق السعر بسرعة... لكن تجربة النقل تبقى في بالك لسنوات.</strong></p>
           </div>
           <div class="buttons centered"><a class="btn btn--fill" href="#quote">احصل على عرض سعر خلال 15 دقيقة</a></div>
         </div>
       </section>
 
-      <section class="usp"><div class="container usp__row"><img src="assets/images/usp%231.webp" alt="تغليف أثاث"><div><h2>أثاث منزلك بالحفظ والصون</h2><p>استمتع براحة البال مع فريق يتعامل مع أثاثك بحرص واهتمام. مهما كانت القطعة حساسة أو قابلة للكسر، يتعامل معها فريقنا المدرّب بعناية في كل خطوة.</p></div></div></section>
-      <section class="usp"><div class="container usp__row usp__row--reverse"><img src="assets/images/usp%232.webp" alt="عرض سعر واضح"><div><h2>أسعارنا نهائية بدون مفاجآت</h2><p>ادفع ما اتفقنا عليه فقط، وخلّ ميزانية نقلك تحت السيطرة. بدون رسوم مخفية، ولا إضافات تظهر في آخر لحظة.</p></div></div></section>
-      <section class="usp"><div class="container usp__row"><img src="assets/images/usp%233.webp" alt="تنظيم النقل"><div><h2>لا تخلي النقل يعطّل يومك</h2><p>نعرف أن عندك أشغال، ومشاوير، والتزامات ما تقدر تأجلها. لذلك نلتزم بالوصول في الوقت المتفق عليه، وإنجاز النقل خلال المدة المحددة، حتى تمشي أمورك بدون تعطيل.</p></div></div></section>
-      <section class="usp"><div class="container usp__row usp__row--reverse"><img src="assets/images/usp%234.webp" alt="تركيب أثاث"><div><h2>لا تشيل هم أي ترتيبات إضافية</h2><p>ما تحتاج تدور على نجّار، كهربائي، فني مكيفات، أو أي مقدم خدمة آخر. فريقنا بيتولى جميع الأعمال المرتبطة بالنقل، حتى تخلص كل شيء بسهولة ومن خلال جهة واحدة.</p></div></div></section>
-      <section class="usp"><div class="container usp__row"><img src="assets/images/usp%235.webp" alt="نقل مستعجل"><div><h2>عندك نقل مستعجل؟ خلّنا نشوف كيف نقدر نساعدك</h2><p>اتصل فينا، وبنحاول نرتب لك النقل في أقرب وقت ممكن. هدفنا نساعدك وقت ما تحتاجنا، ونوفر لك أسرع حل يناسب ظروفك.</p></div></div></section>
-      <section class="usp"><div class="container usp__row usp__row--reverse"><img src="assets/images/usp%236.webp" alt="شاحنة نقل واسعة"><div><h2>انقل أغراضك بأقل عدد من المشاوير</h2><p>وفّر وقتك وتكاليف النقل مع شاحناتنا الواسعة اللي بتسع أغراضك في أقل عدد ممكن من الرحلات، عشان تخلص نقلك بشكل أسرع وبدون مشاوير إضافية.</p></div></div></section>
+      <section class="usp"><div class="container usp__row"><img src="assets/images/usp%231.webp" width="1024" height="1024" alt="تغليف أثاث" loading="lazy" decoding="async"><div><h2>أثاث منزلك بالحفظ والصون</h2><p>استمتع براحة البال مع فريق يتعامل مع أثاثك بحرص واهتمام. مهما كانت القطعة حساسة أو قابلة للكسر، يتعامل معها فريقنا المدرّب بعناية في كل خطوة.</p></div></div></section>
+      <section class="usp"><div class="container usp__row usp__row--reverse"><img src="assets/images/usp%232.webp" width="1234" height="1300" alt="عرض سعر واضح" loading="lazy" decoding="async"><div><h2>أسعارنا نهائية بدون مفاجآت</h2><p>ادفع ما اتفقنا عليه فقط، وخلّ ميزانية نقلك تحت السيطرة. بدون رسوم مخفية، ولا إضافات تظهر في آخر لحظة.</p></div></div></section>
+      <section class="usp"><div class="container usp__row"><img src="assets/images/usp%233.webp" width="1160" height="1300" alt="تنظيم النقل" loading="lazy" decoding="async"><div><h2>لا تخلي النقل يعطّل يومك</h2><p>نعرف أن عندك أشغال، ومشاوير، والتزامات ما تقدر تأجلها. لذلك نلتزم بالوصول في الوقت المتفق عليه، وإنجاز النقل خلال المدة المحددة، حتى تمشي أمورك بدون تعطيل.</p></div></div></section>
+      <section class="usp"><div class="container usp__row usp__row--reverse"><img src="assets/images/usp%234.webp" width="904" height="1200" alt="تركيب أثاث" loading="lazy" decoding="async"><div><h2>لا تشيل هم أي ترتيبات إضافية</h2><p>ما تحتاج تدور على نجّار، كهربائي، فني مكيفات، أو أي مقدم خدمة آخر. فريقنا بيتولى جميع الأعمال المرتبطة بالنقل، حتى تخلص كل شيء بسهولة ومن خلال جهة واحدة.</p></div></div></section>
+      <section class="usp"><div class="container usp__row"><img src="assets/images/usp%235.webp" width="1150" height="1300" alt="نقل مستعجل" loading="lazy" decoding="async"><div><h2>عندك نقل مستعجل؟ خلّنا نشوف كيف نقدر نساعدك</h2><p>اتصل فينا، وبنحاول نرتب لك النقل في أقرب وقت ممكن. هدفنا نساعدك وقت ما تحتاجنا، ونوفر لك أسرع حل يناسب ظروفك.</p></div></div></section>
+      <section class="usp"><div class="container usp__row usp__row--reverse"><img src="assets/images/usp%236.webp" width="904" height="1200" alt="شاحنة نقل واسعة" loading="lazy" decoding="async"><div><h2>انقل أغراضك بأقل عدد من المشاوير</h2><p>وفّر وقتك وتكاليف النقل مع شاحناتنا الواسعة اللي بتسع أغراضك في أقل عدد ممكن من الرحلات، عشان تخلص نقلك بشكل أسرع وبدون مشاوير إضافية.</p></div></div></section>
 
       <section class="stats">
         <div class="container">
@@ -106,8 +111,8 @@
         <div class="container">
           <h2>خدماتنا مصممة لكل احتياج</h2>
           <div class="services__grid">
-            <article><img src="assets/images/services-office2.webp" alt="نقل مكاتب وشركات"><div><h3>حافظ على سير أعمالك بدون تعطّل</h3><p>نعرف أن كل ساعة توقف لها تكلفة، لذلك نخطط للنقل بعناية وننجزه بسرعة، حتى تستأنف أعمالك بأقل تعطّل ممكن.</p></div></article>
-            <article><img src="assets/images/services-homes.webp" alt="نقل منزلي"><div><h3>استمتع بانتقال مريح لبيتك الجديد</h3><p>من التخطيط وعرض السعر، إلى الفك والتغليف والنقل وإعادة التركيب، نهتم بكل التفاصيل عنك عشان ما تشيل هم أي شيء.</p></div></article>
+            <article><img src="assets/images/services-office2.webp" width="1090" height="1072" alt="نقل مكاتب وشركات" loading="lazy" decoding="async"><div><h3>حافظ على سير أعمالك بدون تعطّل</h3><p>نعرف أن كل ساعة توقف لها تكلفة، لذلك نخطط للنقل بعناية وننجزه بسرعة، حتى تستأنف أعمالك بأقل تعطّل ممكن.</p></div></article>
+            <article><img src="assets/images/services-homes.webp" width="1200" height="904" alt="نقل منزلي" loading="lazy" decoding="async"><div><h3>استمتع بانتقال مريح لبيتك الجديد</h3><p>من التخطيط وعرض السعر، إلى الفك والتغليف والنقل وإعادة التركيب، نهتم بكل التفاصيل عنك عشان ما تشيل هم أي شيء.</p></div></article>
           </div>
           <div class="cta-block cta-block--center"><div class="buttons centered"><a class="btn btn--fill" href="#quote">احصل على عرض سعر خلال 15 دقيقة</a></div>
           <!-- <div class="available">
@@ -175,9 +180,9 @@
         <div class="container">
           <h2>انقل بيتك في 3 خطوات بسيطة</h2>
           <div class="steps">
-            <article><img src="assets/icons/phone.svg" alt=""><span>الخطوة الأولى</span><h3>تواصل معنا</h3><p>اتصل علينا أو راسلنا، وقل لنا من وين بتنقل، ووين وجهتك الجديدة، ومتى يناسبك موعد النقل. وإذا حبيت، أرسل صور أو فيديو للأثاث عشان نعطيك عرض سعر أدق.</p></article>
-            <article><img src="assets/icons/file-detail.svg" alt=""><span>الخطوة الثانية</span><h3>استلم عرض السعر</h3><p>نراجع تفاصيل النقل ونرسل لك عرض سعر واضح ونهائي، يشمل كل الخدمات المتفق عليها، بدون رسوم أو مفاجآت وقت التنفيذ</p></article>
-            <article><img src="assets/icons/done.svg" alt=""><span>الخطوة الثالثة</span><h3>ارتاح وخَلّها علينا</h3><p>نوصل في الموعد، ونتولى التخطيط، والفك، والتغليف، والتحميل، والنقل، وإعادة التركيب، حتى تبدأ أول يوم في بيتك الجديد وأنت مرتاح</p></article>
+            <article><img src="assets/icons/phone.svg" width="36" height="36" alt="" loading="lazy" decoding="async"><span>الخطوة الأولى</span><h3>تواصل معنا</h3><p>اتصل علينا أو راسلنا، وقل لنا من وين بتنقل، ووين وجهتك الجديدة، ومتى يناسبك موعد النقل. وإذا حبيت، أرسل صور أو فيديو للأثاث عشان نعطيك عرض سعر أدق.</p></article>
+            <article><img src="assets/icons/file-detail.svg" width="36" height="36" alt="" loading="lazy" decoding="async"><span>الخطوة الثانية</span><h3>استلم عرض السعر</h3><p>نراجع تفاصيل النقل ونرسل لك عرض سعر واضح ونهائي، يشمل كل الخدمات المتفق عليها، بدون رسوم أو مفاجآت وقت التنفيذ</p></article>
+            <article><img src="assets/icons/done.svg" width="36" height="36" alt="" loading="lazy" decoding="async"><span>الخطوة الثالثة</span><h3>ارتاح وخَلّها علينا</h3><p>نوصل في الموعد، ونتولى التخطيط، والفك، والتغليف، والتحميل، والنقل، وإعادة التركيب، حتى تبدأ أول يوم في بيتك الجديد وأنت مرتاح</p></article>
           </div>
           <div class="buttons centered"><a class="btn btn--fill" href="#quote">احصل على عرض سعر خلال 15 دقيقة</a></div>
         </div>
@@ -200,7 +205,7 @@
 
       <section class="recap" id="quote">
         <div class="container recap__inner">
-          <img src="assets/images/final-cta.webp" alt="منزل جديد وصناديق نقل">
+          <img src="assets/images/final-cta.webp" width="1200" height="904" alt="منزل جديد وصناديق نقل" loading="lazy" decoding="async">
           <div><h2>جاهز تنقل؟ احجز موعدك اليوم</h2><p>كلّمنا اليوم، وخذ عرض سعر واضح، واحجز الموعد اللي يناسبك قبل زحمة المواعيد. انقل مع فريق يهتم بأثاثك، ويحترم وقتك، ويلتزم بالسعر المتفق عليه.</p><div class="buttons"><a class="btn btn--fill" href="https://wa.me/966500000000">احصل على عرض سعر خلال 15 دقيقة</a></div></div>
         </div>
       </section>

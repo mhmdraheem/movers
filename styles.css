@@ -800,21 +800,22 @@ section { background: var(--color-surface); }
 }
 
 .faq__answer {
-  max-height: 0;
-  overflow: hidden;
+  display: grid;
+  grid-template-rows: 0fr;
   opacity: 0;
   transform: translateY(-6px);
-  transition: max-height .32s ease, opacity .22s ease, transform .32s ease;
+  transition: grid-template-rows .32s ease, opacity .22s ease, transform .32s ease;
 }
 
 .faq details[open] .faq__answer,
 .faq details.is-open .faq__answer {
-  max-height: 220px;
+  grid-template-rows: 1fr;
   opacity: 1;
   transform: translateY(0);
 }
 
 .faq__answer-inner {
+  overflow: hidden;
   padding: 0 22px 24px;
 }
 
