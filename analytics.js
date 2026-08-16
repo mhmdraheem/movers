@@ -78,6 +78,7 @@
 
     const eventParams = {
       event_category: trigger.dataset.analyticsCategory || "engagement",
+      cta_location: trigger.dataset.analyticsLabel || trigger.textContent.trim(),
       event_label: trigger.dataset.analyticsLabel || trigger.textContent.trim(),
       link_url: trigger.href || "",
       page_location: window.location.href,
