@@ -1,0 +1,8 @@
+<svg width="768" height="656" viewBox="0 0 768 656" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="768" height="656" rx="24" fill="#F8F5EE"/>
+  <rect x="70" y="74" width="628" height="508" rx="24" fill="#FFFDF8" stroke="#DCE5DC" stroke-width="4"/>
+  <rect x="154" y="168" width="460" height="260" rx="22" fill="#DCE5DC"/>
+  <path d="M230 350L322 258L396 332L444 284L552 392H216L230 350Z" fill="#72B67A" opacity=".75"/>
+  <circle cx="526" cy="220" r="34" fill="#F6C98D"/>
+  <text x="384" y="506" text-anchor="middle" font-family="IBM Plex Sans Arabic, Tahoma, Arial, sans-serif" font-size="34" font-weight="700" fill="#17392B">مكان صورة المراجعة</text>
+</svg>
