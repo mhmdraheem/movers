@@ -1,8 +1,0 @@
-<svg width="768" height="530" viewBox="0 0 768 530" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="768" height="530" rx="24" fill="#FFFDF8"/>
-  <rect x="74" y="70" width="620" height="390" rx="24" fill="#DCE5DC"/>
-  <path d="M174 308H594" stroke="#17392B" stroke-width="12" stroke-linecap="round" opacity=".16"/>
-  <path d="M218 256H550" stroke="#17392B" stroke-width="12" stroke-linecap="round" opacity=".16"/>
-  <path d="M284 184L318 218L386 150L454 218L488 184" stroke="#F27D62" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="384" y="388" text-anchor="middle" font-family="IBM Plex Sans Arabic, Tahoma, Arial, sans-serif" font-size="32" font-weight="700" fill="#17231D">صورة مؤقتة</text>
-</svg>
